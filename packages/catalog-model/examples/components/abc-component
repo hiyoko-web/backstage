@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: abc
+  # This is an extra long description with Markdown
+  description: ABC component
+  links:
+    - url: https://github.com/swagger-api/swagger-petstore
+      title: GitHub Repo abc
+      icon: github abc
+spec:
+  type: service
+  lifecycle: experimental---
+  owner: team-b
+  providesApis:
+    - hello-world
